@@ -2,6 +2,26 @@
   box-sizing: border-box;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 200px 40px;
+  grid-template-rows: 75% 35% 25% 35% 15%;
+  grid-template-areas: 
+  'title title title '
+  'sidebar sidebar header'
+  'sidebar sidebar header '
+}
+
+.sidebar {
+  display: block;
+  float: left;
+}
+
+.title {
+  background-image: url(../images/02-portfolio-3.jpg);
+  
+}
+
 body {
   display: grid;
   margin: 0;
@@ -36,15 +56,3 @@ ul {
 }
   
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
