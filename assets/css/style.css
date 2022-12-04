@@ -1,33 +1,33 @@
-* {
+*{
   box-sizing: border-box;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 80px 200px 40px;
-  grid-template-rows: 75% 35% 25% 35% 15%;
-  grid-template-areas: 
-  'title title title '
-  'sidebar sidebar header'
-  'sidebar sidebar header '
-}
-
-.sidebar {
-  display: block;
-  float: left;
-}
-
-.title {
-  background-image: url(../images/02-portfolio-3.jpg);
-  
-}
-
-body {
-  display: grid;
   margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+}
+
+header {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.title{
+  display: flex;
+
+}
+
+nav{
+  display: flex;
+  justify-self: end;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .hero-image {
@@ -47,12 +47,13 @@ body {
   transform: translate(-50%, -50%);
   color: rgba(21, 6, 56, 0.527);
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-}
   
-
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 200px 40px;
+  grid-template-rows: 75% 35% 25% 35% 15%;
+  grid-template-areas: 
+  'title title title '
+  'sidebar sidebar header'
+  'sidebar sidebar header '
+}
