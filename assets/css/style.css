@@ -33,8 +33,12 @@ h1:hover {
   color: rgba(8, 138, 143, 0.527)
 }
 
-.container {
-  color: blueviolet;
+.grid-container {
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+
 }
 
 p {
