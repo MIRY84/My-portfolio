@@ -4,16 +4,16 @@
 }
 
 body {
-  background-image:  url("../images/Portfolio\ background.jpg");
   background-color:rgba(218, 218, 183, 0.4);
-  background-repeat: no-repeat;
-  background-size: cover;
   font-size: 1.5em;
+  text-align: justify;
 }
 
-background-image {
-  height: fit-content;
-  width: fit-content;
+.hero {
+  background-image: url(../images/portfolio-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
 }
 
 header {
@@ -41,9 +41,7 @@ p {
   color: black;
 }
 
-.subtitle {
-  color: blue;
-}
+
 
 nav {
   display: flex;
