@@ -34,20 +34,27 @@ h1:hover {
 }
 
 .grid-container {
-  background-color: rgb(67, 55, 78);
+  background-color: rgb(168, 164, 172);
   display: grid;
   margin: auto;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 4fr 4fr 2fr;
   grid-template-rows: 100px 400px;
   justify-content: center;
+  gap: 1.5rem;
  
 
 }
 
-#grid-item {
-  text-align: center;
+.grid-item {
+  text-align: left;
   justify-content: space-around;
   
+}
+
+
+
+h2 {
+  color: rgb(7, 7, 59);
 }
 
 p {
