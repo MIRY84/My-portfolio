@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: rgb(51, 104, 129);
+  background-color: rgb(41, 79, 97);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,8 +39,8 @@ h1:hover {
   background-color: rgb(168, 164, 172);
   display: grid;
   margin: auto;
-  grid-template-columns: 4fr 4fr 2fr;
-  grid-template-rows: 100px 400px;
+  grid-template-columns: 2fr 4fr 2fr;
+  grid-template-rows: 150px 300px;
   justify-content: center;
   gap: 1.5rem;
  
@@ -50,11 +50,15 @@ h1:hover {
 .grid-item {
   text-align: left;
   justify-content: space-around;
+
   
 }
 
+
+
 #aboutme {
   text-align: right;
+  align-self: stretch;
 }
 
 
