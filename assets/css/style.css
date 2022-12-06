@@ -8,8 +8,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color:rgba(218, 218, 183, 0.4);
-  font-size: 1.5em;
-  line-height: 1.5;
+  font-size: 1.7em;
 
 }
 
@@ -37,25 +36,27 @@ h1:hover {
 }
 
 .page-wrapper {
-  background-color: rgb(168, 164, 172);
+
   display: grid;
-  margin: auto;
-  grid-template-columns: 2fr 6fr 3fr;
-  grid-template-rows: 700px 600px 400px;
+  grid-template-columns: 3fr 3fr 2fr;
+  grid-template-rows: 600px 600px 300px;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2 rem;
  
 
 }
 
-#aboutme {
-  text-align: right;
-  align-self: stretch;
+#about {
+  text-align: left;
   border-color: blue;
   background-color: blueviolet;
+  border-width: 0.5em;
+  border-radius: 0.8fr;
 
   
 }
+
+
 
 #main-project img {
   height: 600px;
@@ -63,8 +64,8 @@ h1:hover {
 }
 
 #second-project img {
-  height: 400px;
-  width:  400px ;
+  height: 300px;
+  width:  300px ;
 }
 
 img {
@@ -77,9 +78,18 @@ img {
   width: 200px;
 }
 
-#second-project {
+#second-project img {
+  grid-area: second project;
   float: right;
   position: absolute;
+}
+
+#third-project img{
+  grid-area: third project;
+  height: 300px;
+  width: 300px;
+  float: right;
+
 }
 @media only screen and (max-width: 700px){
   .responsive {
