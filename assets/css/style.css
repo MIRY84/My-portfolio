@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background-color: rgb(41, 79, 97);
+  background-color: rgb(57, 93, 110);
   display: flex;
   align-items: center;
   padding: 30px 10%;
@@ -40,30 +40,35 @@ h1:hover {
   background-color: rgb(168, 164, 172);
   display: grid;
   margin: auto;
-  grid-template-columns: 2fr 4fr 2fr;
-  grid-template-rows: 700px 700px 600px;
+  grid-template-columns: 2fr 6fr 3fr;
+  grid-template-rows: 700px 600px 400px;
   justify-content: center;
   gap: 1.5rem;
  
 
 }
 
-.grid-item {
-  text-align: left;
-  justify-content: space-around;
-
-  
-}
-
-
-
 #aboutme {
   text-align: right;
   align-self: stretch;
+  border-color: blue;
+  background-color: blueviolet;
+
   
 }
 
+#main-project img {
+  height: 600px;
+  width: 600px;
+}
+
+#second-project img {
+  height: 400px;
+  width:  400px ;
+}
+
 img {
+  background-color: aqua;
   background-image: url("/images/image\ Horiseon\ website.png");
   height: auto;
   border: 2px solid #ddd;
@@ -72,6 +77,10 @@ img {
   width: 200px;
 }
 
+#second-project {
+  float: right;
+  position: absolute;
+}
 @media only screen and (max-width: 700px){
   .responsive {
     width: 49.99999%;
@@ -103,6 +112,7 @@ ul {
 nav ul li {
   display: inline-block;
   padding: 0px 20px;
+  color: blue;
 }
 
 
