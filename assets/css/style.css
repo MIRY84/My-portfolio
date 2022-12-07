@@ -38,6 +38,8 @@ h1:hover {
 .page-wrapper {
 
   display: grid;
+  background-color: aquamarine;
+  padding: 20px;
   grid-template-columns: 3fr 3fr 2fr;
   grid-template-rows: 600px 600px 300px;
   justify-content: center;
