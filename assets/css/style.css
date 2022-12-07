@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -45,10 +47,11 @@ h1:hover {
   justify-content: center;
   grid-template-areas: "top-row second-row second-row"
   "top-row  second-row second-row"
-  "third-row third-row third-row"
- 
+  "third-row third-row third-row";
+  grid-gap: 30px;
 
 }
+
 
 .top-row {
   grid-area: top-row;
