@@ -39,16 +39,19 @@ h1:hover {
 
   display: grid;
   background-color: aquamarine;
-  padding: 20px;
-  grid-template-columns: 3fr 3fr 2fr;
-  grid-template-rows: 600px 600px 300px;
+  padding: 40px;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 35% 40% ;
   justify-content: center;
-  gap: 2 rem;
+  grid-template-areas: "top-row second-row second-row"
+  "top-row  second-row second-row"
+  "third-row third-row third-row"
  
 
 }
 
-#about {
+.top-row {
+  grid-area: top-row;
   text-align: left;
   border-color: blue;
   background-color: blueviolet;
@@ -58,16 +61,28 @@ h1:hover {
   
 }
 
+.second-row {
+  grid-area: second-row;
+}
+
+.third-row {
+  grid-area: third-row;
+}
 
 
-#main-project img {
-  height: 600px;
+.second-row img {
+  height: 400px;
   width: 600px;
 }
 
-#second-project img {
+.third-row img {
   height: 300px;
   width:  300px ;
+}
+
+#third-project img {
+  height: 200px;
+  width: 400px;
 }
 
 img {
@@ -80,19 +95,7 @@ img {
   width: 200px;
 }
 
-#second-project img {
-  grid-area: second project;
-  float: right;
-  position: absolute;
-}
 
-#third-project img{
-  grid-area: third project;
-  height: 300px;
-  width: 300px;
-  float: right;
-
-}
 @media only screen and (max-width: 700px){
   .responsive {
     width: 49.99999%;
@@ -104,6 +107,7 @@ img {
 
 h2 {
   color: rgb(7, 7, 59);
+  border-color: black;
 }
 
 p {
