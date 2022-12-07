@@ -55,11 +55,15 @@ h1:hover {
 
 .top-row {
   grid-area: top-row;
-  text-align: left;
+  text-decoration-color: black;
   border-color: blue;
   background-color: blueviolet;
   border-width: 0.5em;
   border-radius: 0.8fr;
+  width: 20rem;
+  height: 40rem;
+  text-align: center;
+  padding: 10px;
   
 }
 
@@ -145,6 +149,7 @@ nav ul li {
 }
 
 .footer a {
+  display: flex;
   padding: 20px 40px;
   text-decoration: none;
 
