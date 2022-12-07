@@ -60,9 +60,9 @@ h1:hover {
   background-color: blueviolet;
   border-width: 0.5em;
   border-radius: 0.8fr;
-
   
 }
+
 
 .second-row {
   grid-area: second-row;
@@ -95,7 +95,7 @@ img {
   border: 2px solid #ddd;
   border-radius: 4px;
   padding: 8px;
-  width: 200px;
+  max-width: 100%;
 }
 
 
