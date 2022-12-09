@@ -37,6 +37,14 @@ h1:hover {
   color: rgba(8, 138, 143, 0.527)
 }
 
+.title {
+    width: 300px;
+    padding: 10px;
+    border: 5px solid rgb(54, 36, 36);
+    margin: 0;
+    text-align: center;
+}
+
 .page-wrapper {
 
   display: grid;
